@@ -1,0 +1,20 @@
+# Ignore everything by default to avoid accidentally committing secrets/local state
+*
+
+# Allow Git to traverse directories so allowlisted files below can be included
+!*/
+
+# Repo metadata/docs
+!.gitignore
+!LICENSE
+!README.md
+!packages.md
+!AGENTS.md
+
+# Pi config intentionally tracked
+!agent/settings.json
+!agent/mcp.json
+
+# Pi extensions intentionally tracked
+!agent/extensions/
+!agent/extensions/*.ts
