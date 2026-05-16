@@ -18,3 +18,7 @@
 # Pi extensions intentionally tracked
 !agent/extensions/
 !agent/extensions/*.ts
+
+# Pi themes intentionally tracked
+!agent/themes/
+!agent/themes/*.json

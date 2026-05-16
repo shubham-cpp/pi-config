@@ -3,6 +3,7 @@
   "defaultProvider": "openai-codex",
   "defaultModel": "gpt-5.5",
   "defaultThinkingLevel": "medium",
+  "theme": "vague",
   "compaction": {
     "enabled": true,
     "reserveTokens": 50000,
@@ -13,5 +14,9 @@
     "npm:pi-subagents",
     "npm:pi-web-access",
     "npm:@juicesharp/rpiv-ask-user-question"
-  ]
+  ],
+  "editorPaddingX": 0,
+  "terminal": {
+    "showTerminalProgress": true
+  }
 }

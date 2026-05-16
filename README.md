@@ -10,6 +10,7 @@ Personal Pi config repo. Safe allowlist Git setup. Track chosen config + extensi
 - `agent/settings.json` — Pi defaults: provider, model, thinking, compaction, packages.
 - `agent/mcp.json` — MCP server config.
 - `agent/extensions/*.ts` — custom Pi extensions.
+- `agent/themes/vague.json` — Pi theme ported from vague.nvim palette.
 
 ## Not included
 
@@ -65,6 +66,27 @@ Adds:
 - `Ctrl-r` reverse search panel
 - up/down navigation inside search
 - enter accept, escape cancel
+
+## Themes
+
+### `vague`
+
+Dark Pi theme based on local vague.nvim palette from:
+
+Design choices:
+
+- `#141415` base bg for export page.
+- `#1c1c24` / `#252530` for message + tool surfaces.
+- `#7e98e8` hint blue as main accent.
+- `#7fa563`, `#d8647e`, `#f3be7c` for success/error/warning.
+- terminal default text preserved for main message text.
+- full `fg` used for dense tool output/code blocks for readability.
+
+Enabled by:
+
+```json
+"theme": "vague"
+```
 
 ## Installed packages
 
@@ -128,5 +150,5 @@ Run before commit:
 
 ```bash
 git status --short
-grep -R "token\|key\|secret\|password" README.md agent/settings.json agent/mcp.json agent/extensions || true
+grep -R "token\|key\|secret\|password" README.md agent/settings.json agent/mcp.json agent/extensions agent/themes || true
 ```
