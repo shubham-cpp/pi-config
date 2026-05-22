@@ -1,5 +1,5 @@
 {
-  "lastChangelogVersion": "0.74.0",
+  "lastChangelogVersion": "0.75.4",
   "defaultProvider": "openai-codex",
   "defaultModel": "gpt-5.5",
   "defaultThinkingLevel": "medium",
@@ -10,10 +10,16 @@
     "keepRecentTokens": 20000
   },
   "packages": [
-    "npm:pi-mcp-adapter",
-    "npm:pi-subagents",
+    "npm:@juicesharp/rpiv-pi",
+    "npm:@tintinweb/pi-subagents",
+    "npm:@juicesharp/rpiv-ask-user-question",
+    "npm:@juicesharp/rpiv-todo",
+    "npm:@juicesharp/rpiv-advisor",
+    "npm:@juicesharp/rpiv-i18n",
+    "npm:@juicesharp/rpiv-args",
     "npm:pi-web-access",
-    "npm:@juicesharp/rpiv-ask-user-question"
+    "npm:pi-mcp-adapter",
+    "npm:@juicesharp/rpiv-voice"
   ],
   "editorPaddingX": 0,
   "terminal": {

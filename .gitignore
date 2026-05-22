@@ -8,12 +8,12 @@
 !.gitignore
 !LICENSE
 !README.md
-!packages.md
-!AGENTS.md
 
 # Pi config intentionally tracked
 !agent/settings.json
 !agent/mcp.json
+!agent/AGENTS.md
+!agent/RTK.md
 
 # Pi extensions intentionally tracked
 !agent/extensions/
